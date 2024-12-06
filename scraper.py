@@ -28,7 +28,7 @@ class Scraper:
         for key, value in replacements.items():
             string = string.replace(key, value)
 
-        return sting
+        return string
     
 
     def extract_comments(self, container, visited_comment_ids = []):
